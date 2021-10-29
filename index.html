@@ -42,6 +42,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <img src="oxe-img/apre.png" style="width:100%">
     </div>
     <div class="w3-display-container mySlides">
+      <img src="oxe-img/LARANJADAFEED.png" style="width:100%">
+    </div>
+    <div class="w3-display-container mySlides">
       <img src="oxe-img/shopee.png" style="width:100%">
     </div>
     <div class="w3-display-container mySlides">
@@ -66,6 +69,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
         <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
       </div>
     </div>
   </div>
@@ -116,10 +120,22 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
+        <img src="oxe-img/laranjada.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>🍊 Laranjada</h3>
+          <p class="w3-opacity">Laranja</p>
+          <p>Caia nessa laranjada 👀</p>
+          <p><button onclick="document.getElementById('laranjaModal').style.display='block'"  class="w3-button w3-light-grey w3-block">CONSULTAR ESTOQUE 📦</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
         <img src="oxe-img/limi.png" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>🍋 Limivis</h3>
-          <p class="w3-opacity">Limão</p>
+          <p class="w3-opacity">limão</p>
           <p>O Azedinho do seu dia. 🤩</p>
           <p><button onclick="document.getElementById('limaoModal').style.display='block'"  class="w3-button w3-light-grey w3-block">CONSULTAR ESTOQUE 📦</button></p>
         </div>
@@ -231,6 +247,79 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="w3-container">
         <span onclick="document.getElementById('morangoModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
         <iframe src="morango.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="laranjaModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('laranjaModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="laranja.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="limaoModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('limaoModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="limao.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="limelModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('limelModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="limel.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="melModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('melModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="mel.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="baunilhaModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('baunilhaModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="baunilha.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="baunilhaModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('baunilhaModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="baunilha.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="rvModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('rvModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="frutas-vermelhas.html"  width="100%" height="500" style="border:none;"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="maracujaModal" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('maracujaModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <iframe src="maracuja.html"  width="100%" height="500" style="border:none;"></iframe>
       </div>
     </div>
   </div>
